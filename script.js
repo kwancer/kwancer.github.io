@@ -31,3 +31,12 @@ window.addEventListener('load', () => {
 
 
 setInterval(updateTime, 50);
+
+var map = new mapboxgl.Map({
+  container: 'map',
+  
+});
+
+var marker = new mapboxgl.Marker()
+marker.setLngLat([-0.118092, 51.509865])
+marker.addTo(map);
