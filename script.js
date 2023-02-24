@@ -4,6 +4,7 @@ var closeBtn = document.getElementById('close-btn');
 var content = document.getElementsByClassName("content")[0];
 
 
+
 function updateTime(){
     var d = new Date();
     var n = d.toLocaleTimeString([], {
@@ -23,9 +24,9 @@ closeBtn.addEventListener('click', () => {
 });
 
 window.addEventListener('load', () => {
-  popup.style.display = 'flex';
-  content.style.display = 'none';
-  console.log("wowowowowow")
+    popup.style.display = 'flex';
+    content.style.display = 'none';
+    console.log("wowowowowow")
 });
 
 

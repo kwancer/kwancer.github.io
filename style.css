@@ -558,7 +558,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -569,13 +569,16 @@ body {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 1000;
 }
 
 #close-btn {
   display: block;
   margin: 10px auto;
   border: none;
-  background-color: #ccc;
+  background-color: #000;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
